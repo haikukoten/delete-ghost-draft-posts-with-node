@@ -1,0 +1,15 @@
+{
+    "name": "delete-draft",
+    "version": "1.0.0",
+    "description": "Automatically delete all draft ghost cms blog posts",
+    "main": "delete-draft.js",
+    "scripts": {
+        "start": "node delete-draft.js"
+    },
+    "dependencies": {
+        "@tryghost/admin-api": "^5.44.0",
+    },
+    "engines": {
+        "node": "16.x"
+    }
+}
